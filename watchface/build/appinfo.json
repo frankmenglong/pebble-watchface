@@ -1,0 +1,48 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "watchface", 
+    "name": "watchface", 
+    "messageKeys": {
+        "dummy": 10000
+    }, 
+    "companyName": "Frank Yuan", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 10000
+    }, 
+    "longName": "watchface", 
+    "shortName": "watchface", 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "resources": {
+        "media": [
+            {
+                "type": "font", 
+                "name": "FONT_PERFECT_DOS_48", 
+                "file": "fonts/perfect-dos-vga.ttf", 
+                "compatibility": "2.7"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "IMAGE_BACKGROUND", 
+                "file": "images/background.png"
+            }, 
+            {
+                "type": "font", 
+                "name": "FONT_PERFECT_DOS_20", 
+                "file": "fonts/perfect-dos-vga.ttf", 
+                "compatibility": "2.7"
+            }
+        ]
+    }, 
+    "uuid": "ead023a6-4fd2-4878-9e04-b10ec9b2952e"
+}

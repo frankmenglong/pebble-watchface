@@ -1,0 +1,48 @@
+{
+  "name": "watchface",
+  "author": "Frank Yuan",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface",
+    "uuid": "ead023a6-4fd2-4878-9e04-b10ec9b2952e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_48",
+        "file": "fonts/perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+
+      {
+        "type": "bitmap",
+        "name": "IMAGE_BACKGROUND",
+        "file": "images/background.png"
+      },
+      {
+        "type":"font",
+        "name":"FONT_PERFECT_DOS_20",
+        "file":"fonts/perfect-dos-vga.ttf",
+        "compatibility": "2.7"
+      }
+      ]
+    }
+  }
+}
