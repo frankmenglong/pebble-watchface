@@ -8,15 +8,19 @@
     "displayName": "watchface", 
     "name": "watchface", 
     "messageKeys": {
-        "dummy": 10000
+        "CONDITIONS": 1, 
+        "TEMPERATURE": 0
     }, 
     "companyName": "Frank Yuan", 
     "enableMultiJS": true, 
     "versionLabel": "1.0", 
-    "capabilities": [], 
+    "capabilities": [
+        "location"
+    ], 
     "sdkVersion": "3", 
     "appKeys": {
-        "dummy": 10000
+        "CONDITIONS": 1, 
+        "TEMPERATURE": 0
     }, 
     "longName": "watchface", 
     "shortName": "watchface", 

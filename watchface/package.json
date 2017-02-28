@@ -19,9 +19,15 @@
     "watchapp": {
       "watchface": true
     },
-    "messageKeys": [
-      "dummy"
-    ],
+
+    "capabilities": ["location"],
+        
+    "messageKeys": {
+      "TEMPERATURE": 0,
+      "CONDITIONS": 1
+    },
+
+
     "resources": {
       "media": [
       {
